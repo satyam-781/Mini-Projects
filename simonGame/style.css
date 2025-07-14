@@ -1,0 +1,57 @@
+
+.simon-game {
+    place-self: center;
+    /* border: 1px solid black/; */
+    height: 70vh;
+    width: 100vh;
+    text-align: center;
+
+}
+
+.container {
+    height: 70%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2rem;
+    place-self: center;
+    margin-top: 1rem;
+
+}
+
+.box {
+    border: 5px solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: -1px 1px 5px black;
+}
+
+.left-up {
+    background-color: brown;
+}
+
+.right-up {
+    background-color: yellow;
+}
+
+.left-down {
+    background-color: orange;
+}
+
+.right-down {
+    background-color: blue;
+}
+
+.flash {
+    background-color: white;
+}
+.userFlash{
+    background-color: green;
+}
+p{
+    color: green;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
